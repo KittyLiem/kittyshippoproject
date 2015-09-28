@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sv:node xmlns:ae="http://www.onehippo.org/jcr/autoexport/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" ae:id="kittyshippoproject" sv:name="hippo:initialize">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippo:initializefolder</sv:value>
+  </sv:property>
+
+  <sv:node sv:name="kittyshippoproject-content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30053</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/</sv:value>
+    </sv:property>
+  </sv:node>
+
+  <!-- Content -->
+  <sv:node sv:name="kittyshippoproject-documents">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30400</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents</sv:value>
+    </sv:property>
+  </sv:node>
+
+  <!-- Gallery -->
+  <sv:node sv:name="kittyshippoproject-gallery">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30500</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/gallery/kittyshippoproject.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/gallery</sv:value>
+    </sv:property>
+  </sv:node>
+
+<sv:node sv:name="kittyshippoproject-content-documents-administration">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30054.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/administration.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-administration-labels">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30055.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/administration/labels.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/administration</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-banners">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/banners.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-gallery-kittyshippoproject-banners">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30501.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/gallery/kittyshippoproject/banners.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/gallery/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-events">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/events.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-faq">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/faq.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-gallery-kittyshippoproject-samples">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30501.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/gallery/kittyshippoproject/samples.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/gallery/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-news">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/news.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/content.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-videos">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/videos.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-polls">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/polls.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-blog">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/blog.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-administration-robots">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30055.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/administration/robots.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/administration</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="kittyshippoproject-content-documents-kittyshippoproject-blogFacets">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30401.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/documents/kittyshippoproject/blogFacets.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/documents/kittyshippoproject</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

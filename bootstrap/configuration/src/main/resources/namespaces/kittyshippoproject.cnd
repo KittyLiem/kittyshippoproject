@@ -1,0 +1,43 @@
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'kittyshippoproject'='http://www.onehippo.org/kittyshippoproject/nt/1.0'>
+
+[kittyshippoproject:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[kittyshippoproject:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[kittyshippoproject:author] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:bannerdocument] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:blogpost] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:contentdocument] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:eventsdocument] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:faqitem] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:faqlist] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:imageset] > hippogallery:imageset, hippogallery:relaxed
+  orderable
+
+[kittyshippoproject:newsdocument] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+
+[kittyshippoproject:video] > hippostd:relaxed, hippotranslation:translated, kittyshippoproject:basedocument
+  orderable
+

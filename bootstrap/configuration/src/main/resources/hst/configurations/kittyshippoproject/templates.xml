@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:templates">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:templates</sv:value>
+  </sv:property>
+  <sv:node sv:name="base-layout">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/base-layout.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-top-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/base-top-menu.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-footer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/base-footer.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="homepage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/homepage-main.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="pagenotfound-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/pagenotfound-main.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="eventspage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/eventspage-main.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="faq-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/faq-main.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="newspage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/newspage-main.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="search-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/search-main.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="contentlist-main-contentlist">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/contentlist-main-contentlist.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="blog-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/blog/blog-main.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="blog-detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/kittyshippoproject/blog/blog-detail.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
